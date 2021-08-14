@@ -16,7 +16,7 @@ Once you have a refresh token, paste it in `tokens.txt`. The script will use thi
 ## Running the script
 
 When running the script you will need to include your database password, API key, and client secret as command line arguments. The syntax should look like:
-`python useApi.py DATABASE_PASSWORD API_KEY CLIENT_SECRET`
+`python getMods.py DATABASE_PASSWORD API_KEY CLIENT_SECRET`
 
 Ada's mods change daily so running the script once a day will add everything she is selling to the database. I suggest setting up a cron job to automate this! 
 
