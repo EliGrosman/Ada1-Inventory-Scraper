@@ -10,7 +10,7 @@ You can either create a database to match this configuration or make adjustments
 You will also need a Bungie API application in order to access Ada's mods. You can register an application here: https://www.bungie.net/en/Application. I recommend setting your OAuth Client Type to "Confidential".
 After creating your application, take note of your API Key, OAuth client_id, and OAuth client_secret. You will need these later.
 
-Before starting the script, you will need a refresh token. This can be confusing to find so I suggest following this guide: https://lowlidev.com.au/destiny/authentication-2?code=5add74b719cc2947ece346605b51caa6.  
+Before starting the script, you will need a refresh token. This can be confusing to find so I suggest following this guide: https://lowlidev.com.au/destiny/authentication-2.  
 Once you have a refresh token, paste it in `tokens.txt`. The script will use this to get a new access token and refresh token each time it runs.
 
 ## Running the script
